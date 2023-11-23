@@ -1,0 +1,38 @@
+header{
+    font-family: 'Poppins', sans-serif;
+    color: var(--branco-gelo);
+}
+.nav-main {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+text-decoration: none;
+color: var(--branco-gelo);
+
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.header-left h1{
+    font-size: 28px;
+}
+
+.form-logout > button{
+width: 82px;
+height: 42px;
+background-color: transparent;
+border: 1px solid var(--branco-gelo);
+cursor: pointer;
+font-size: 14px;
+color: var(--branco-gelo);
+}

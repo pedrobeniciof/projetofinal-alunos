@@ -1,0 +1,104 @@
+@import url("../styles/variaveis.css");
+/*Cabecalho*/
+header{
+    color: aliceblue;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header > h1{
+    font-family: var(--font-principal);
+    font-size: 32px;
+}
+/*Conteúdo principal*/
+.main-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+    
+}
+
+.fullscreen-login{
+    height: 78vh;
+}
+    /*Formulario de login*/
+.login-right{
+    /*background-color: rgb(68, 119, 170, 0.15);*/
+    padding: 2rem;
+    border-radius: 20px;
+    
+}
+
+.login-right-text{
+    font-family: var(--font-principal);
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: var(--branco-gelo);
+}
+
+.login-right-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+.login-right-form > label{
+    font-size: 1rem;
+    font-family: var(--font-secundaria);
+    color: var(--branco-gelo);
+}
+.login-right-form > input{
+    font-size: 1.3rem;
+    height: 2rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    margin-bottom: 1.5rem;
+    color: var(--branco-gelo);
+}
+
+.login-right-form > button{
+    height: 3rem;
+    font-size: 18px;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    border: none;
+    width: 300px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.login-right-cadastro{
+    font-size: 16px;
+    font-family: var(--font-secundaria);
+    color: var(--branco-gelo);
+}
+
+.img-principal{
+    background:url(../img/icon-principal.svg) center/cover; 
+    width: 430px;
+    height: 400px;
+}
+
+
+/*LOGIN INCORRETO*/
+
+.login-errado-texto{
+    color: red;
+    font-family: var(--font-principal);
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+footer > p {
+    margin: 0;
+    color: var(--branco-gelo);
+}

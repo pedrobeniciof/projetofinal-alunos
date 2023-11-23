@@ -1,0 +1,24 @@
+.card-alunos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+    height: 85vh;
+}
+.tabela-alunos{
+    width: 75%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td{
+    border: 1px solid rgb(82, 137, 255);
+}
+th, td{
+    padding: 12px;
+    text-align: left;
+}
+th{
+    background-color: rgba(21, 6, 228, 0.431);
+    border-color: rgba(82, 137, 255, 0.431);
+}

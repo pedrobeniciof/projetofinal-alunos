@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&family=Nunito:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&family=Unbounded:wght@200;300;400;700&display=swap');
+
+
+:root{
+    /*Fontes*/
+    --font-principal: 'Unbounded', sans-serif;
+    --font-secundaria: 'Konit', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+
+
+    /*Cores*/
+    --bg-cor: linear-gradient(180deg, #022249 0%, #041832 48.44%, #01080E 100%);
+    --azul-agua: rgb(82, 137, 255);
+    --branco-gelo: #fafafa;
+    --branco-02:#f4f4f4;
+}
+
+*{
+    box-sizing: border-box;
+    color: var(--branco-gelo);
+    font-family: var(--font-poppins);
+}
+
+body{
+    background: var(--bg-cor);
+    min-height: 100vh;
+    padding: 12px 5%;
+}
+
+.nav-main {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+text-decoration: none;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+.header-left h1{
+    font-size: 28px;
+}

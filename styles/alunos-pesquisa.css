@@ -1,0 +1,22 @@
+.titulo-tabela-alunos{
+    text-align: center;
+}
+.tabela-pesquisa-aluno{
+    width: 100%;
+    border-radius: 0.7rem;
+}
+.erro-ao-procurar{
+    text-align: center;
+    color: red;
+    width: 100%;
+}
+table, th, td{
+    border: 0.2px solid #ddd;
+}
+th, td{
+    padding: 12px;
+    text-align: left;
+}
+th{
+    background-color: #0051e7;
+}
